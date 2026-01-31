@@ -1,0 +1,10 @@
+Model,Best Params,Train R2,Train MAE,Train RMSE,Test R2,Test MAE,Test RMSE,Optimization Time (s),Training Time (s)
+Linear,{},0.824,0.057,0.072,0.818,0.058,0.074,0.010990142822265625,0.002007007598876953
+KNR,"{'n_neighbors': 2, 'weights': 'uniform', 'algorithm': 'brute', 'p': 2}",0.904,0.044,0.053,0.879,0.043,0.06,167.03455328941345,0.0
+SVR,"{'C': 6.5484932492936085, 'epsilon': 0.01, 'kernel': 'rbf'}",0.971,0.014,0.029,0.942,0.027,0.042,111.32523679733276,0.08288025856018066
+DTR,"{'max_depth': 10, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': None, 'criterion': 'absolute_error'}",0.991,0.005,0.016,0.939,0.021,0.043,155.5743851661682,0.0253603458404541
+GBR,"{'n_estimators': 10, 'loss': 'squared_error', 'learning_rate': 0.7263014572416651, 'alpha': 0.8999999999999998, 'max_depth': 7}",0.999,0.003,0.006,0.947,0.023,0.04,216.59070754051208,0.023482561111450195
+RFR,"{'n_estimators': 6, 'max_depth': 9}",0.987,0.011,0.02,0.954,0.021,0.037,98.56870460510254,0.018215656280517578
+ETR,"{'n_estimators': 10, 'max_depth': 8, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': None, 'bootstrap': True}",0.984,0.013,0.022,0.949,0.023,0.039,163.1204285621643,0.033995628356933594
+XGBR,"{'n_estimators': 10, 'learning_rate': 0.5266527416712523, 'max_depth': 7}",0.995,0.007,0.012,0.959,0.02,0.035,120.90507006645203,0.11617255210876465
+NeuralNetwork,"{'hidden_layers': 3, 'units': 128, 'activation': 'relu', 'learning_rate': 0.01}",0.999,0.003,0.004,0.962,0.018,0.034,3047.6979382038116,5.458991289138794
