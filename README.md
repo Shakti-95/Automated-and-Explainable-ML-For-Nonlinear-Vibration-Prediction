@@ -1,4 +1,4 @@
-<img width="90" height="21" alt="image" src="https://github.com/user-attachments/assets/8f4874a0-eb03-4e7a-8299-5e61cecf8bc0" /># Automated and Explainable Machine Learning for Accelerating Nonlinear Vibration Prediction in Bioinspired Helicoidal Laminated Composite Structures
+# Automated and Explainable Machine Learning for Accelerating Nonlinear Vibration Prediction in Bioinspired Helicoidal Laminated Composite Structures
 Shubham Saurabh, Shakti Prasad Padhy, Vu Ngoc Viet Hoang, Raj Kiran, Vishal Singh Chauhan
 
 
@@ -24,7 +24,7 @@ The Automated Regression Workflow (ARW) is implemented through the ```mlregworkf
 
 1. **Data Preprocessing:**
     - The raw dataset (```Data_Format_NL_Vib_DH_CH.csv```) is loaded using pandas.
-    - Categorical features (```Boundary_Conditions```, ```Configuration```) are identified and converted into numerical format using one-hot encoding (```pd.get_dummies```).
+    - Categorical features (```Boundary_Conditions```, ```Configurations```) are identified and converted into numerical format using one-hot encoding (```pd.get_dummies```).
     - Numerical features (```Layer```, ```Modulus_Ratios```, ```Side_to_Thickness Ratios```) are separated from the target variable (```Nonlinear_Frequency_Ratio```).
     - All features (```X```) and the target (```y```) are then scaled using ```StandardScaler``` to normalize their ranges.
 2. **Data Splitting:**
