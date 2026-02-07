@@ -17,23 +17,23 @@ If you used the database or the codes for your research, please consider citing 
 ### GitHub repository citation
 
 ```
-@software{padhy_2025_15927988,
-  author       = {Padhy, Shakti Prasad and
-                  Saurabh, Shubham and
-                  Choudhary, Krishana and
+@software{saurabh_2026_18509918,
+  author       = {Saurabh, Shubham and
+                  Padhy, Shakti Prasad and
+                  Vu, Ngoc Viet Hoang and
                   Kiran, Raj and
-                  Nguyen-Thanh, Nhon},
-  title        = {{Data and codes for Automated Regression Workflow
-                   for Interpretable Deflection Prediction in Bio-
-                   Inspired Laminated Composite Plates: Data and
-                   codes release v1.0.0
-                  }},
-  month        = jul,
-  year         = 2025,
+                  Chauhan, Vishal Singh},
+  title        = {Data and Codes for Automated and Explainable
+                   Machine Learning for Accelerating Nonlinear
+                   Vibration Prediction in Bioinspired Helicoidal
+                   Laminated Composite Structures
+                  },
+  month        = feb,
+  year         = 2026,
   publisher    = {Zenodo},
-  version      = {v1.0.0},
-  doi          = {10.5281/zenodo.15927988},
-  url          = {[https://doi.org/10.5281/zenodo.15927988](https://doi.org/10.5281/zenodo.15927988)},
+  version      = {Software},
+  doi          = {10.5281/zenodo.18509918},
+  url          = {https://doi.org/10.5281/zenodo.18509918},
 }
 ```
 
